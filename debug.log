@@ -1,0 +1,995 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/Users/victoria/Documents/Installer/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: /Users/victoria/Documents/Installer/apache-maven-3.9.9
+Java version: 25.0.1, vendor: Oracle Corporation, runtime: /Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home
+Default locale: en_CA, platform encoding: UTF-8
+OS name: "mac os x", version: "26.3", arch: "aarch64", family: "mac"
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/victoria/Documents/Installer/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /Users/victoria/Documents/Installer/apache-maven-3.9.9/conf/settings.xml
+[DEBUG] Reading user settings from /Users/victoria/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/victoria/Documents/Installer/apache-maven-3.9.9/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/victoria/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/victoria/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/victoria/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.taskapp:task-management-system:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix javafx from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Resolved plugin prefix javafx to org.openjfx:javafx-maven-plugin from POM org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [javafx:run]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------< org.taskapp:task-management-system >-----------------
+[INFO] Building task-management-system 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Resolving plugin prefix javafx from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix javafx to org.openjfx:javafx-maven-plugin from POM org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.taskapp:task-management-system:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [runtime]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] --- init fork of org.taskapp:task-management-system:1.0-SNAPSHOT for org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] --- exit fork of org.taskapp:task-management-system:1.0-SNAPSHOT for org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <async default-value="false">${javafx.async}</async>
+  <asyncDestroyOnShutdown default-value="true">${javafx.asyncDestroyOnShutdown}</asyncDestroyOnShutdown>
+  <basedir default-value="${basedir}"/>
+  <builddir default-value="${project.build.directory}"/>
+  <commandlineArgs>${javafx.args}</commandlineArgs>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <executable default-value="java">${javafx.executable}</executable>
+  <includePathExceptionsInClasspath default-value="false">${javafx.includePathExceptionsInClasspath}</includePathExceptionsInClasspath>
+  <mainClass>org.taskapp.ui.TaskUI</mainClass>
+  <outputFile>${javafx.outputFile}</outputFile>
+  <project default-value="${project}"/>
+  <runtimePathOption>${javafx.runtimePathOption}</runtimePathOption>
+  <session default-value="${session}"/>
+  <skip default-value="false">${javafx.skip}</skip>
+  <workingDirectory>${javafx.workingDirectory}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ task-management-system >>>
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:21.0.2 during dependency collection step for project. Path to offending node from root:
+ -> org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+ => org.openjfx:javafx-controls:jar:21.0.2 (provided)
+Problems
+* 'profiles.profile.id' Duplicate activation for profile linux-x86_64 @ org.openjfx:javafx:21.0.2
+* 'profiles.profile.id' Duplicate activation for profile linux-aarch64 @ org.openjfx:javafx:21.0.2
+* 'profiles.profile.id' Duplicate activation for profile macosx-x86_64 @ org.openjfx:javafx:21.0.2
+* 'profiles.profile.id' Duplicate activation for profile macosx-aarch64 @ org.openjfx:javafx:21.0.2
+* 'profiles.profile.id' Duplicate activation for profile windows-x86_64 @ org.openjfx:javafx:21.0.2
+* 'profiles.profile.id' Duplicate activation for profile windows-x86 @ org.openjfx:javafx:21.0.2
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=300292, ConflictMarker.markTime=121708, ConflictMarker.nodeCount=127, ConflictIdSorter.graphTime=170084, ConflictIdSorter.topsortTime=172333, ConflictIdSorter.conflictIdCount=65, ConflictIdSorter.conflictIdCycleCount=3, ConflictResolver.totalTime=3482500, ConflictResolver.conflictItemCount=96, DfDependencyCollector.collectTime=173544709, DfDependencyCollector.transformTime=4951041}
+[DEBUG] org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG]    io.github.cdimascio:dotenv-java:jar:3.0.0:compile
+[DEBUG]    org.openjfx:javafx-controls:jar:21.0.2:provided
+[DEBUG]       org.openjfx:javafx-controls:jar:mac-aarch64:21.0.2:provided
+[DEBUG]    org.openjfx:javafx-graphics:jar:21.0.2:compile
+[DEBUG]       org.openjfx:javafx-graphics:jar:mac-aarch64:21.0.2:compile
+[DEBUG]    org.openjfx:javafx-base:jar:21.0.2:compile
+[DEBUG]       org.openjfx:javafx-base:jar:mac-aarch64:21.0.2:compile
+[DEBUG]    com.microsoft.sqlserver:mssql-jdbc:jar:13.2.1.jre11:provided
+[DEBUG]    org.liquibase:liquibase-core:jar:4.27.0:provided
+[DEBUG]       com.opencsv:opencsv:jar:5.9:provided
+[DEBUG]       org.apache.commons:commons-text:jar:1.11.0:provided
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.4:provided
+[DEBUG]       org.yaml:snakeyaml:jar:2.2:provided
+[DEBUG]       javax.xml.bind:jaxb-api:jar:2.3.1:provided
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.14.0:provided
+[DEBUG]    jakarta.websocket:jakarta.websocket-api:jar:2.1.1:provided
+[DEBUG]    org.glassfish.tyrus:tyrus-server:jar:2.1.5:compile
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[DEBUG]       org.glassfish.tyrus:tyrus-client:jar:2.1.5:compile
+[DEBUG]          org.glassfish.tyrus:tyrus-core:jar:2.1.5:compile
+[DEBUG]             org.glassfish.tyrus:tyrus-spi:jar:2.1.5:compile
+[DEBUG]                jakarta.websocket:jakarta.websocket-client-api:jar:2.1.1:compile
+[DEBUG]       org.glassfish.tyrus:tyrus-container-grizzly-client:jar:2.1.5:compile
+[DEBUG]    org.glassfish.tyrus:tyrus-container-grizzly-server:jar:2.2.0:test
+[DEBUG]       org.glassfish.grizzly:grizzly-framework:jar:4.0.2:compile
+[DEBUG]       org.glassfish.grizzly:grizzly-http-server:jar:4.0.2:compile
+[DEBUG]          org.glassfish.grizzly:grizzly-http:jar:4.0.2:compile
+[DEBUG]    io.jsonwebtoken:jjwt-api:jar:0.12.6:compile
+[DEBUG]    io.jsonwebtoken:jjwt-impl:jar:0.12.6:runtime
+[DEBUG]    io.jsonwebtoken:jjwt-jackson:jar:0.12.6:runtime
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.12.7:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.12.7:runtime
+[DEBUG]    com.google.oauth-client:google-oauth-client:jar:1.39.0:compile
+[DEBUG]       com.google.http-client:google-http-client:jar:1.43.3:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[DEBUG]          io.opencensus:opencensus-api:jar:0.31.1:compile
+[DEBUG]             io.grpc:grpc-context:jar:1.27.2:compile
+[DEBUG]          io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[DEBUG]       com.google.http-client:google-http-client-gson:jar:1.43.3:compile
+[DEBUG]          com.google.code.gson:gson:jar:2.10.1:compile
+[DEBUG]       com.google.guava:guava:jar:31.1-android:compile
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:3.12.0:compile
+[DEBUG]    org.junit.jupiter:junit-jupiter:jar:5.10.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.10.2:test
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.10.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.10.2:test
+[DEBUG]    org.mockito:mockito-core:jar:5.21.0:test
+[DEBUG]       net.bytebuddy:byte-buddy:jar:1.17.7:test
+[DEBUG]       net.bytebuddy:byte-buddy-agent:jar:1.17.7:test
+[DEBUG]       org.objenesis:objenesis:jar:3.3:test
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ task-management-system ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=28000, ConflictMarker.markTime=15500, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=8750, ConflictIdSorter.topsortTime=6291, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=143875, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=18030917, DfDependencyCollector.transformTime=210375}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@7a8c5397]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.taskapp:task-management-system:1.0-SNAPSHOT @ /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@44550792
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /Users/victoria/Documents/Installer/apache-maven-3.9.9/bin/m2.conf
+[DEBUG] env.BUN_INSTALL: /Users/victoria/.bun
+[DEBUG] env.COLORTERM: truecolor
+[DEBUG] env.HOME: /Users/victoria
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home
+[DEBUG] env.LANG: en_CA.UTF-8
+[DEBUG] env.LESS: -R
+[DEBUG] env.LOGNAME: victoria
+[DEBUG] env.LSCOLORS: Gxfxcxdxbxegedabagacad
+[DEBUG] env.LS_COLORS: di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+[DEBUG] env.LaunchInstanceID: 7BE9A8A2-6FDF-4460-9086-5618EC46FDA0
+[DEBUG] env.M2_HOME: /Users/victoria/Documents/Installer/apache-maven-3.9.9
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  javafx:run -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG] env.NVM_BIN: /Users/victoria/.nvm/versions/node/v22.14.0/bin
+[DEBUG] env.NVM_CD_FLAGS: -q
+[DEBUG] env.NVM_DIR: /Users/victoria/.nvm
+[DEBUG] env.NVM_INC: /Users/victoria/.nvm/versions/node/v22.14.0/include/node
+[DEBUG] env.OLDPWD: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG] env.OSLogRateLimit: 64
+[DEBUG] env.P9K_SSH: 0
+[DEBUG] env.P9K_TTY: old
+[DEBUG] env.PAGER: less
+[DEBUG] env.PATH: /Users/victoria/.bun/bin:/Users/victoria/.local/bin:/Users/victoria/.rye/shims:/Users/victoria/Documents/Installer/apache-maven-3.9.9/bin:/Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin:/Users/victoria/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin
+[DEBUG] env.PWD: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG] env.SECURITYSESSIONID: 186b6
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.ZjiHX0qwFg/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERM_PROGRAM: Apple_Terminal
+[DEBUG] env.TERM_PROGRAM_VERSION: 466
+[DEBUG] env.TERM_SESSION_ID: 2E9C00F1-C923-4B5C-9571-43AD70C2F5F3
+[DEBUG] env.TMPDIR: /var/folders/zf/xqc06fm50ns17v5_9dpxmnyr0000gn/T/
+[DEBUG] env.USER: victoria
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.ZSH: /Users/victoria/.oh-my-zsh
+[DEBUG] env._P9K_SSH_TTY: /dev/ttys005
+[DEBUG] env._P9K_TTY: /dev/ttys005
+[DEBUG] env.__CFBundleIdentifier: com.apple.Terminal
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x52
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] ftp.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] http.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] java.class.path: /Users/victoria/Documents/Installer/apache-maven-3.9.9/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 69.0
+[DEBUG] java.home: /Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home
+[DEBUG] java.io.tmpdir: /var/folders/zf/xqc06fm50ns17v5_9dpxmnyr0000gn/T/
+[DEBUG] java.library.path: /Users/victoria/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 25.0.1+8-27
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 25
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 25.0.1
+[DEBUG] java.version.date: 2025-10-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 25
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 25.0.1+8-27
+[DEBUG] javafx.version: 21.0.2
+[DEBUG] jdk.debug: release
+[DEBUG] junit.version: 5.12.1
+[DEBUG] library.jansi.path: /Users/victoria/Documents/Installer/apache-maven-3.9.9/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2026-01-12T20:47:56Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.source: 21
+[DEBUG] maven.compiler.target: 21
+[DEBUG] maven.conf: /Users/victoria/Documents/Installer/apache-maven-3.9.9/conf
+[DEBUG] maven.home: /Users/victoria/Documents/Installer/apache-maven-3.9.9
+[DEBUG] maven.multiModuleProjectDirectory: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 26.3
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] socksNonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdin.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher javafx:run -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: CA
+[DEBUG] user.dir: /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG] user.home: /Users/victoria
+[DEBUG] user.language: en
+[DEBUG] user.name: victoria
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[DEBUG] Copying file db/changelog/db.changelog-master.xml
+[DEBUG] file db.changelog-master.xml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'db.changelog-master.xml'.
+[DEBUG] copy /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/resources/db/changelog/db.changelog-master.xml to /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes/db/changelog/db.changelog-master.xml
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ task-management-system ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=30042, ConflictMarker.markTime=14167, ConflictMarker.nodeCount=17, ConflictIdSorter.graphTime=11750, ConflictIdSorter.topsortTime=9916, ConflictIdSorter.conflictIdCount=12, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=134916, ConflictResolver.conflictItemCount=17, DfDependencyCollector.collectTime=25288708, DfDependencyCollector.transformTime=210792}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.1.2:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.4:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.13.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.5.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.1.2
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.4
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.13.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@7a8c5397]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG]   (f) buildDirectory = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target
+[DEBUG]   (f) compilePath = [/Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes, /Users/victoria/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2-mac-aarch64.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-mac-aarch64.jar, /Users/victoria/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/13.2.1.jre11/mssql-jdbc-13.2.1.jre11.jar, /Users/victoria/.m2/repository/org/liquibase/liquibase-core/4.27.0/liquibase-core-4.27.0.jar, /Users/victoria/.m2/repository/com/opencsv/opencsv/5.9/opencsv-5.9.jar, /Users/victoria/.m2/repository/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar, /Users/victoria/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar, /Users/victoria/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar, /Users/victoria/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, /Users/victoria/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar, /Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-api/2.1.1/jakarta.websocket-api-2.1.1.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-server/2.1.5/tyrus-server-2.1.5.jar, /Users/victoria/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar, /Users/victoria/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-client/2.1.5/tyrus-client-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-core/2.1.5/tyrus-core-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.1.5/tyrus-spi-2.1.5.jar, /Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.1/jakarta.websocket-client-api-2.1.1.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.1.5/tyrus-container-grizzly-client-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-framework/4.0.2/grizzly-framework-4.0.2.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http-server/4.0.2/grizzly-http-server-4.0.2.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http/4.0.2/grizzly-http-4.0.2.jar, /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar, /Users/victoria/.m2/repository/com/google/oauth-client/google-oauth-client/1.39.0/google-oauth-client-1.39.0.jar, /Users/victoria/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar, /Users/victoria/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar, /Users/victoria/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /Users/victoria/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar, /Users/victoria/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar, /Users/victoria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/victoria/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /Users/victoria/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /Users/victoria/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar, /Users/victoria/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar, /Users/victoria/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar, /Users/victoria/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar, /Users/victoria/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /Users/victoria/.m2/repository/com/google/guava/guava/31.1-android/guava-31.1-android.jar, /Users/victoria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /Users/victoria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/victoria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: org.taskapp:task-management-system:1.0-SNAPSHOT @ /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/pom.xml
+[DEBUG]   (f) projectArtifact = org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@44550792
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 21
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 21
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/generated-sources/annotations to compile source roots:
+  /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/java
+[DEBUG] New compile source roots:
+  /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/src/main/java
+  /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ task-management-system <<<
+[INFO] 
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=104541, ConflictMarker.markTime=50709, ConflictMarker.nodeCount=127, ConflictIdSorter.graphTime=79959, ConflictIdSorter.topsortTime=88750, ConflictIdSorter.conflictIdCount=65, ConflictIdSorter.conflictIdCycleCount=3, ConflictResolver.totalTime=1573750, ConflictResolver.conflictItemCount=96, DfDependencyCollector.collectTime=1898541, DfDependencyCollector.transformTime=1928292}
+[DEBUG] org.taskapp:task-management-system:jar:1.0-SNAPSHOT
+[DEBUG]    io.github.cdimascio:dotenv-java:jar:3.0.0:compile
+[DEBUG]    org.openjfx:javafx-controls:jar:21.0.2:provided
+[DEBUG]       org.openjfx:javafx-controls:jar:mac-aarch64:21.0.2:provided
+[DEBUG]    org.openjfx:javafx-graphics:jar:21.0.2:compile
+[DEBUG]       org.openjfx:javafx-graphics:jar:mac-aarch64:21.0.2:compile
+[DEBUG]    org.openjfx:javafx-base:jar:21.0.2:compile
+[DEBUG]       org.openjfx:javafx-base:jar:mac-aarch64:21.0.2:compile
+[DEBUG]    com.microsoft.sqlserver:mssql-jdbc:jar:13.2.1.jre11:provided
+[DEBUG]    org.liquibase:liquibase-core:jar:4.27.0:provided
+[DEBUG]       com.opencsv:opencsv:jar:5.9:provided
+[DEBUG]       org.apache.commons:commons-text:jar:1.11.0:provided
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.4:provided
+[DEBUG]       org.yaml:snakeyaml:jar:2.2:provided
+[DEBUG]       javax.xml.bind:jaxb-api:jar:2.3.1:provided
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.14.0:provided
+[DEBUG]    jakarta.websocket:jakarta.websocket-api:jar:2.1.1:provided
+[DEBUG]    org.glassfish.tyrus:tyrus-server:jar:2.1.5:compile
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[DEBUG]       org.glassfish.tyrus:tyrus-client:jar:2.1.5:compile
+[DEBUG]          org.glassfish.tyrus:tyrus-core:jar:2.1.5:compile
+[DEBUG]             org.glassfish.tyrus:tyrus-spi:jar:2.1.5:compile
+[DEBUG]                jakarta.websocket:jakarta.websocket-client-api:jar:2.1.1:compile
+[DEBUG]       org.glassfish.tyrus:tyrus-container-grizzly-client:jar:2.1.5:compile
+[DEBUG]    org.glassfish.tyrus:tyrus-container-grizzly-server:jar:2.2.0:test
+[DEBUG]       org.glassfish.grizzly:grizzly-framework:jar:4.0.2:compile
+[DEBUG]       org.glassfish.grizzly:grizzly-http-server:jar:4.0.2:compile
+[DEBUG]          org.glassfish.grizzly:grizzly-http:jar:4.0.2:compile
+[DEBUG]    io.jsonwebtoken:jjwt-api:jar:0.12.6:compile
+[DEBUG]    io.jsonwebtoken:jjwt-impl:jar:0.12.6:runtime
+[DEBUG]    io.jsonwebtoken:jjwt-jackson:jar:0.12.6:runtime
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.12.7:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.12.7:runtime
+[DEBUG]    com.google.oauth-client:google-oauth-client:jar:1.39.0:compile
+[DEBUG]       com.google.http-client:google-http-client:jar:1.43.3:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[DEBUG]          io.opencensus:opencensus-api:jar:0.31.1:compile
+[DEBUG]             io.grpc:grpc-context:jar:1.27.2:compile
+[DEBUG]          io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[DEBUG]       com.google.http-client:google-http-client-gson:jar:1.43.3:compile
+[DEBUG]          com.google.code.gson:gson:jar:2.10.1:compile
+[DEBUG]       com.google.guava:guava:jar:31.1-android:compile
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:3.12.0:compile
+[DEBUG]    org.junit.jupiter:junit-jupiter:jar:5.10.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.10.2:test
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.10.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.10.2:test
+[DEBUG]    org.mockito:mockito-core:jar:5.21.0:test
+[DEBUG]       net.bytebuddy:byte-buddy:jar:1.17.7:test
+[DEBUG]       net.bytebuddy:byte-buddy-agent:jar:1.17.7:test
+[DEBUG]       org.objenesis:objenesis:jar:3.3:test
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ task-management-system ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=108167, ConflictMarker.markTime=28666, ConflictMarker.nodeCount=96, ConflictIdSorter.graphTime=53458, ConflictIdSorter.topsortTime=23209, ConflictIdSorter.conflictIdCount=48, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4349833, ConflictResolver.conflictItemCount=94, DfDependencyCollector.collectTime=77981250, DfDependencyCollector.transformTime=4581041}
+[DEBUG] org.openjfx:javafx-maven-plugin:jar:0.0.8
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.6.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.11:compile
+[DEBUG]       org.ow2.asm:asm:jar:7.0-beta:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.6.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.0.1:compile
+[DEBUG]          commons-io:commons-io:jar:2.6:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.16.1:compile
+[DEBUG]          org.objenesis:objenesis:jar:2.6:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.6.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.25:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-builder-support:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.6.0:compile
+[DEBUG]       org.apache.maven:maven-resolver-provider:jar:3.6.0:compile
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.25:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-impl:jar:1.3.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-api:jar:1.3.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-spi:jar:1.3.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-util:jar:1.3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+[DEBUG]       com.google.inject:guice:jar:no_aop:4.2.1:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          com.google.guava:guava:jar:25.1-android:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]             org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]             org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG] Created new class realm plugin>org.openjfx:javafx-maven-plugin:0.0.8
+[DEBUG] Importing foreign packages into class realm plugin>org.openjfx:javafx-maven-plugin:0.0.8
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.openjfx:javafx-maven-plugin:0.0.8
+[DEBUG]   Included: org.openjfx:javafx-maven-plugin:jar:0.0.8
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.11
+[DEBUG]   Included: org.ow2.asm:asm:jar:7.0-beta
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.6.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.0.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.16.1
+[DEBUG]   Included: org.objenesis:objenesis:jar:2.6
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.25
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.6.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3
+[DEBUG]   Included: com.google.inject:guice:jar:no_aop:4.2.1
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:25.1-android
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-compat-qual:jar:2.0.0
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.1.3
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.1
+[DEBUG]   Included: org.codehaus.mojo:animal-sniffer-annotations:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG] Loading mojo org.openjfx:javafx-maven-plugin:0.0.8:run from plugin realm ClassRealm[plugin>org.openjfx:javafx-maven-plugin:0.0.8, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@7a8c5397]
+[DEBUG] Configuring mojo execution 'org.openjfx:javafx-maven-plugin:0.0.8:run:default-cli' with basic configurator -->
+[DEBUG]   (f) async = false
+[DEBUG]   (f) asyncDestroyOnShutdown = true
+[DEBUG]   (f) basedir = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system
+[DEBUG]   (f) builddir = /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target
+[DEBUG]   (f) compilePath = [/Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes, /Users/victoria/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar, /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-mac-aarch64.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-server/2.1.5/tyrus-server-2.1.5.jar, /Users/victoria/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar, /Users/victoria/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-client/2.1.5/tyrus-client-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-core/2.1.5/tyrus-core-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.1.5/tyrus-spi-2.1.5.jar, /Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.1/jakarta.websocket-client-api-2.1.1.jar, /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.1.5/tyrus-container-grizzly-client-2.1.5.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-framework/4.0.2/grizzly-framework-4.0.2.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http-server/4.0.2/grizzly-http-server-4.0.2.jar, /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http/4.0.2/grizzly-http-4.0.2.jar, /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar, /Users/victoria/.m2/repository/com/google/oauth-client/google-oauth-client/1.39.0/google-oauth-client-1.39.0.jar, /Users/victoria/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar, /Users/victoria/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar, /Users/victoria/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /Users/victoria/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar, /Users/victoria/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar, /Users/victoria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/victoria/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /Users/victoria/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /Users/victoria/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar, /Users/victoria/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar, /Users/victoria/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar, /Users/victoria/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar, /Users/victoria/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /Users/victoria/.m2/repository/com/google/guava/guava/31.1-android/guava-31.1-android.jar, /Users/victoria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /Users/victoria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/victoria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar]
+[DEBUG]   (f) executable = java
+[DEBUG]   (f) includePathExceptionsInClasspath = false
+[DEBUG]   (f) mainClass = org.taskapp.ui.TaskUI
+[DEBUG]   (f) project = MavenProject: org.taskapp:task-management-system:1.0-SNAPSHOT @ /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@44550792
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[DEBUG] Executable [/Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java]
+[DEBUG] Total dependencyArtifacts: 41
+[DEBUG] module descriptor path: null
+[DEBUG] Classpath:37
+[DEBUG]  /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/guava/31.1-android/guava-31.1-android.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar
+[DEBUG]  /Users/victoria/.m2/repository/com/google/oauth-client/google-oauth-client/1.39.0/google-oauth-client-1.39.0.jar
+[DEBUG]  /Users/victoria/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[DEBUG]  /Users/victoria/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.1/jakarta.websocket-client-api-2.1.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-framework/4.0.2/grizzly-framework-4.0.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http/4.0.2/grizzly-http-4.0.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http-server/4.0.2/grizzly-http-server-4.0.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-client/2.1.5/tyrus-client-2.1.5.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.1.5/tyrus-container-grizzly-client-2.1.5.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-core/2.1.5/tyrus-core-2.1.5.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-server/2.1.5/tyrus-server-2.1.5.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.1.5/tyrus-spi-2.1.5.jar
+[DEBUG] Modulepath: 4
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-mac-aarch64.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar
+[DEBUG] pathElements: 41
+[DEBUG]  /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes :: null
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar :: com.fasterxml.jackson.annotation
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar :: com.fasterxml.jackson.core
+[DEBUG]  /Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar :: com.fasterxml.jackson.databind
+[DEBUG]  /Users/victoria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar :: jsr305
+[DEBUG]  /Users/victoria/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar :: com.google.gson
+[DEBUG]  /Users/victoria/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar :: com.google.errorprone.annotations
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar :: failureaccess
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/guava/31.1-android/guava-31.1-android.jar :: com.google.common
+[DEBUG]  /Users/victoria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar :: listenablefuture
+[DEBUG]  /Users/victoria/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar :: com.google.api.client
+[DEBUG]  /Users/victoria/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar :: com.google.api.client.json.gson
+[DEBUG]  /Users/victoria/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar :: j2objc.annotations
+[DEBUG]  /Users/victoria/.m2/repository/com/google/oauth-client/google-oauth-client/1.39.0/google-oauth-client-1.39.0.jar :: com.google.api.client.auth
+[DEBUG]  /Users/victoria/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar :: org.apache.commons.codec
+[DEBUG]  /Users/victoria/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar :: commons.logging
+[DEBUG]  /Users/victoria/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar :: io.github.cdimascio.dotenv.java
+[DEBUG]  /Users/victoria/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar :: grpc.context
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar :: jjwt.api
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar :: jjwt.impl
+[DEBUG]  /Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar :: jjwt.jackson
+[DEBUG]  /Users/victoria/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar :: opencensus.api
+[DEBUG]  /Users/victoria/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar :: opencensus.contrib.http.util
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar :: jakarta.activation
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.1/jakarta.websocket-client-api-2.1.1.jar :: jakarta.websocket.client
+[DEBUG]  /Users/victoria/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar :: jakarta.xml.bind
+[DEBUG]  /Users/victoria/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar :: org.apache.httpcomponents.httpclient
+[DEBUG]  /Users/victoria/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar :: org.apache.httpcomponents.httpcore
+[DEBUG]  /Users/victoria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar :: org.checkerframework.checker.qual
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-framework/4.0.2/grizzly-framework-4.0.2.jar :: org.glassfish.grizzly
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http/4.0.2/grizzly-http-4.0.2.jar :: org.glassfish.grizzly.http
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http-server/4.0.2/grizzly-http-server-4.0.2.jar :: org.glassfish.grizzly.http.server
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-client/2.1.5/tyrus-client-2.1.5.jar :: org.glassfish.tyrus.client
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.1.5/tyrus-container-grizzly-client-2.1.5.jar :: org.glassfish.tyrus.container.grizzly.client
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-core/2.1.5/tyrus-core-2.1.5.jar :: org.glassfish.tyrus.core
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-server/2.1.5/tyrus-server-2.1.5.jar :: org.glassfish.tyrus.server
+[DEBUG]  /Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.1.5/tyrus-spi-2.1.5.jar :: org.glassfish.tyrus.spi
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-mac-aarch64.jar :: javafx.base
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar :: javafx.baseEmpty
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar :: javafx.graphics
+[DEBUG]  /Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar :: javafx.graphicsEmpty
+[DEBUG] Executing command line: [/Users/victoria/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java, --module-path, /Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-mac-aarch64.jar:/Users/victoria/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar:/Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar:/Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar, --add-modules, javafx.base,javafx.graphics, -classpath, /Users/victoria/Documents/Work/Projects/Development/Others/task-management-system/target/classes:/Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar:/Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar:/Users/victoria/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar:/Users/victoria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/victoria/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/victoria/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/victoria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/victoria/.m2/repository/com/google/guava/guava/31.1-android/guava-31.1-android.jar:/Users/victoria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/victoria/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar:/Users/victoria/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar:/Users/victoria/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/victoria/.m2/repository/com/google/oauth-client/google-oauth-client/1.39.0/google-oauth-client-1.39.0.jar:/Users/victoria/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/victoria/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/victoria/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar:/Users/victoria/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar:/Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar:/Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar:/Users/victoria/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar:/Users/victoria/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/Users/victoria/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/Users/victoria/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/victoria/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.1/jakarta.websocket-client-api-2.1.1.jar:/Users/victoria/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/victoria/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/victoria/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/victoria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-framework/4.0.2/grizzly-framework-4.0.2.jar:/Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http/4.0.2/grizzly-http-4.0.2.jar:/Users/victoria/.m2/repository/org/glassfish/grizzly/grizzly-http-server/4.0.2/grizzly-http-server-4.0.2.jar:/Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-client/2.1.5/tyrus-client-2.1.5.jar:/Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.1.5/tyrus-container-grizzly-client-2.1.5.jar:/Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-core/2.1.5/tyrus-core-2.1.5.jar:/Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-server/2.1.5/tyrus-server-2.1.5.jar:/Users/victoria/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.1.5/tyrus-spi-2.1.5.jar, org.taskapp.ui.TaskUI]
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in module javafx.graphics (file:/Users/victoria/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-mac-aarch64.jar)
+WARNING: Use --enable-native-access=javafx.graphics to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Missing JavaFX application class org.taskapp.ui.TaskUI
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:404)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:166)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:567)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:434)
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:105)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at org.openjfx.JavaFXBaseMojo.executeCommandLine(JavaFXBaseMojo.java:567)
+	at org.openjfx.JavaFXBaseMojo.executeCommandLine(JavaFXBaseMojo.java:434)
+	at org.openjfx.JavaFXRunMojo.execute(JavaFXRunMojo.java:105)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.412 s
+[INFO] Finished at: 2026-01-12T13:47:57-07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) on project task-management-system: Error: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) on project task-management-system: Error
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Error
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:122)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Command execution failed.
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:116)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:404)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:166)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:567)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:434)
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:105)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
